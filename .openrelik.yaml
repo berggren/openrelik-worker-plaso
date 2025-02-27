@@ -1,0 +1,20 @@
+# Worker Metadata
+display_name: Your worker name  # A user-friendly name for your worker
+description: > # Concise overview of what your worker does
+  A brief description of your workers purpose and functionality.
+  This can span multiple lines.
+
+# Contact and Licensing Information
+url: http://example.com # URL where users can find more info about the worker
+author: John Doe <john@example.com> # Contact information for the worker's author
+license: Specify the license under which your worker is released # License for the worker
+
+# Third-Party Tools Used by the Worker
+tools:
+  - display_name: "Tool 1 Name" # User-friendly name of the tool
+    description: "Description of Tool 1" # Brief description of the tool
+    url: "http://example.com" # URL for more info about the tool
+    license: "License" # License under which the tool is released
+
+# Showcase this worker on https://openrelik.org/showcase
+publish: false
